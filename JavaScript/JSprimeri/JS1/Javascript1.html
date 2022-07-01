@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Zakorači u svet tehnologije | Online shop | Nanobyte Technology</title>
+		<meta charset= "UTF-8">
+		<link rel = "stylesheet" href = "style.css">
+	</head>
+
+	<body>
+		<div class = "wrap">
+
+
+		<header>
+		<p>
+			<div class="logo">
+				<a href="index.html">
+				<img src="Slike1\Logo2.png" height=108px width=320px>
+				</a>
+			</div>
+		</p>
+			<nav>
+			<a href="..\..\..\Proizvodi\Proizvodi.html" style="text-decoration:none">
+				<div class="dugme">
+				<p>Proizvodi</p>
+				</div>
+			</a>
+			<a href="..\..\..\Akcije\Akcije.html" style="text-decoration:none">
+				<div class="dugme">
+				<p>Akcije</p>
+				</div>
+			</a>
+			<a href="..\..\..\Novosti\Novosti.html" style="text-decoration:none">
+				<div class="dugme">
+				<p>Novosti</p>
+				</div>
+			</a>
+			<a href="..\..\..\Clanstvo\Clanstvo.html" style="text-decoration:none">
+				<div class="dugme">
+				<p>Članstvo</p>
+				</div>
+			</a>
+			<a href="..\..\..\JavaScript\JavaScript.html" style="text-decoration:none">
+				<div class="dugme">
+				<p>JavaScript</p>
+				</div>
+			</a>
+			</nav>
+		</header>
+
+
+
+		<main>
+
+<div class="onama">
+			<h1 id="naslov"> Sadrzaj </h1>
+			<dl id="sadrzaj">
+							<dt id="glava" style="font-family:verdana;">O nama</dt>
+							<dd id="tekst"> Mi smo IT prodavnica </dd>
+							<dd id="tekst"> Mi se nalazimo nigde </dd>
+							<dd id="tekst"> Imamo veoma povoljne cene </dd>
+							<dd id="tekst"> Besplatna dostava svugde u svetu </dd>
+
+							<dt id="glava" style="font-family:verdana;">Zapsoleni</dt>
+							<dd id="tekst"> Nikola </dd>
+							<dd id="tekst"> Marko </dd>
+							<dd id="tekst"> Suzana </dd>
+							<dd id="tekst"> Milan </dd>
+
+							<dt id="glava" style="font-family:verdana;">Lokacije</dt>
+							<dd id="tekst"> Novi Sad </dd>
+							<dd id="tekst"> Bezdan </dd>
+							<dd id="tekst"> Beograd </dd>
+							<dd id="tekst"> Sombor </dd>
+			</ul>
+	</div>
+
+			<script>
+			  function promeniPrikazSadrzaja() {
+			    let sadrzaj = document.getElementById("sadrzaj");
+			      if (sadrzaj.style.display == "none"){
+			        sadrzaj.style.display = "block";
+			      }
+
+			      else {
+			        sadrzaj.style.display = "none";
+			      }
+			  }
+
+			  let naslov = document.getElementById("naslov");
+			  naslov.addEventListener("click", promeniPrikazSadrzaja);
+
+			</script>
+		</main>
+
+
+
+		<footer>
+		<div class="obavestenje">
+			<h6>Projekat: Veb Sajt | Učenik: Filip Nikolić IV-7 | 16.12.2021.</h6>
+			<p id="p2">(projekat je bio napravljen na 1920x1080 rezoluciji)</p>
+		</div>
+		</footer>
+
+
+		</div>
+	</body>
+</html>
